@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="فروشگاه یکبار مصرف پاک - بهترین محصولات یکبار مصرف">
+    <title>یکبار مصرف پاک</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>یکبار مصرف پاک</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">صفحه اصلی</a></li>
+                    <li><a href="#products">محصولات</a></li>
+                    <li><a href="#about">درباره ما</a></li>
+                    <li><a href="#contact">تماس با ما</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Slideshow -->
+    <section id="home" class="slideshow">
+        <div class="slide">
+            <h2>تخفیف‌های ویژه</h2>
+            <p>خرید محصولات با بهترین قیمت</p>
+        </div>
+        <div class="slide">
+            <h2>محصولات با کیفیت</h2>
+            <p>تنوع در ظروف یکبار مصرف</p>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="products">
+        <h2>محصولات پرفروش</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="images/product1.jpg" alt="محصول 1">
+                <h3>لیوان یکبار مصرف</h3>
+                <p>10,000 تومان</p>
+                <button>خرید</button>
+            </div>
+            <div class="product">
+                <img src="images/product2.jpg" alt="محصول 2">
+                <h3>بشقاب یکبار مصرف</h3>
+                <p>15,000 تومان</p>
+                <button>خرید</button>
+            </div>
+            <div class="product">
+                <img src="images/product3.jpg" alt="محصول 3">
+                <h3>ظروف پذیرایی</h3>
+                <p>20,000 تومان</p>
+                <button>خرید</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2>درباره ما</h2>
+        <p>فروشگاه یکبار مصرف پاک ارائه دهنده بهترین ظروف یکبار مصرف با تضمین کیفیت و قیمت مناسب است.</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2>تماس با ما</h2>
+        <form>
+            <input type="text" placeholder="نام" required>
+            <input type="email" placeholder="ایمیل" required>
+            <textarea placeholder="پیام شما" required></textarea>
+            <button type="submit">ارسال</button>
+        </form>
+        <p>شماره تماس: 09123456789</p>
+        <p>ایمیل: info@example.com</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 تمامی حقوق محفوظ است. فروشگاه یکبار مصرف پاک.</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    direction: rtl;
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.slideshow {
+    background: url('images/slide1.jpg') no-repeat center center/cover;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
